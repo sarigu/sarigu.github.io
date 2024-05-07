@@ -25,7 +25,7 @@ layout: home
         border: none;
     }
 
-    .site-header * , .site-footer *, .site-title {
+    .site-header * , .site-footer *, .site-title, .site-nav .page-link {
         color: white;
     }
 
@@ -158,7 +158,7 @@ Within the realm of public events, arrests represent a nuanced intersection of c
 
 <figure class="figure">
     <iframe src="/assets/embeds/correlation_events_arrest_rate" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 11: Interactive map to explore correlation between event type and arrest count by neighborhood
+    <figcaption class="figcaption">Figure 11: Interactive map to explore correlation between event counts and arrest count by neighborhood
   </figcaption>
 </figure>
 
