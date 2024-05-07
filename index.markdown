@@ -102,8 +102,14 @@ New York City pulsates with an array of public events, ranging from block partie
 #### Events by neighborhood and type
 
 <figure class="figure">
-    <iframe src="/assets/embeds/event_count_by_type_and_borough.html" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 3: Interactive graph that illustrates number of events by type and neighborhood
+    <iframe src="/assets/embeds/event_counts_map" width="100%" height="650px"></iframe>
+    <figcaption class="figcaption">Figure 3: Interactive map of events per neighborhood
+  </figcaption>
+</figure>
+
+<figure class="figure">
+    <iframe src="/assets/embeds/event_count_by_type_and_borough" width="100%" height="650px"></iframe>
+    <figcaption class="figcaption">Figure 4: Interactive graph that illustrates number of events by type and neighborhood
   </figcaption>
 </figure>
 
@@ -113,19 +119,25 @@ Behind the headlines and crime reports lie patterns within arrest data that offe
 
 <figure class="figure">
    <img src="/assets/images/arrests_over_time.png" width="100%" height="auto"/>
-    <figcaption class="figcaption">Figure 4: Arrests over time
+    <figcaption class="figcaption">Figure 5: Arrests over time
+  </figcaption>
+</figure>
+
+<figure class="figure">
+    <iframe src="/assets/embeds/event_counts_map" width="100%" height="650px"></iframe>
+    <figcaption class="figcaption">Figure 6: Interactive map of arrests per neighborhood
   </figcaption>
 </figure>
 
 <figure class="figure">
     <iframe src="/assets/embeds/arrest_count_by_offense_and_borough" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 5: Interactive graph that shows number of arrests by offense and neighborhood
+    <figcaption class="figcaption">Figure 7: Interactive graph that shows number of arrests by offense and neighborhood
   </figcaption>
 </figure>
 
 <figure class="figure">
     <iframe src="/assets/embeds/arrest_count_by_age_and_borough" width="100%" height="550px"></iframe>
-    <figcaption class="figcaption">Figure 6: Interactive graph that illustrates number of arrests by age and neighborhood
+    <figcaption class="figcaption">Figure 8: Interactive graph that illustrates number of arrests by age and neighborhood
   </figcaption>
 </figure>
 
@@ -134,32 +146,32 @@ Within the realm of public events, arrests represent a nuanced intersection of c
 
 <figure class="figure">
     <iframe src="/assets/embeds/correlation_analysis_borough_event_arrest" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 7: Interactive map to explore correlation between arrests and event types per neighborhood
+    <figcaption class="figcaption">Figure 9: Interactive map to explore correlation between arrests and event types per neighborhood
   </figcaption>
 </figure>
 
 <figure class="figure">
     <iframe src="/assets/embeds/correlation_event_arrest_borough" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 8: Interactive map to explore correlation between event type and arrest count by neighborhood
+    <figcaption class="figcaption">Figure 10: Interactive map to explore correlation between event type and arrest count by neighborhood
   </figcaption>
 </figure>
 
 <figure class="figure">
     <iframe src="/assets/embeds/correlation_events_arrest_rate" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 9: Interactive map to explore correlation between event type and arrest count by neighborhood
+    <figcaption class="figcaption">Figure 11: Interactive map to explore correlation between event type and arrest count by neighborhood
   </figcaption>
 </figure>
 
 <figure class="figure">
     <iframe src="/assets/embeds/correlation_temporal_analysis" width="100%" height="400px"></iframe>
-    <figcaption class="figcaption">Figure 10: Interactive temporal analysis of events and arrests
+    <figcaption class="figcaption">Figure 12: Interactive temporal analysis of events and arrests
   </figcaption>
 </figure>
 
 
 <figure class="figure">
     <iframe src="/assets/embeds/map_output" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 11: Interactive heatmap with event locations and arrest count per location
+    <figcaption class="figcaption">Figure 13: Interactive heatmap with event locations and arrest count per location
   </figcaption>
 </figure>
 
