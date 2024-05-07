@@ -5,35 +5,49 @@
 layout: home
 ---
 
-# Events and arrests in NYC
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-## Section 1: Introduction
+body{
+    font-family: "Rubik", sans-serif;
+}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et suscipit risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ut volutpat metus. Nam lacinia elit quis nisi volutpat, non ultricies dolor ultricies. 
+.page-heading{
+    display: none;
+}
+</style>
 
-## Section 2: Featured Article
 
-### Article Title
+# Behind the Numbers: A Data-Driven Journey Through NYC's Arrests and Events
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et suscipit risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ut volutpat metus. Nam lacinia elit quis nisi volutpat, non ultricies dolor ultricies.
+In the bustling metropolis of New York City, a rich tapestry of events unfolds daily, from cultural festivals to sporting spectacles. Yet, beneath the surface of these vibrant gatherings lies a complex interplay between celebration and law enforcement. Join us on a data-driven exploration as we delve into the heart of NYC’s arrests and events, uncovering the stories behind the statistics and shedding light on the human experiences that shape our city.
 
-### Article Embed
+## The Data Landscape
 
-<iframe src="https://www.example.com/article" width="100%" height="500px"></iframe>
+In this section, we navigate the intricate terrain of NYC’s arrests and events, examining the spectrum of public gatherings and discerning trends within arrest data.
 
-## Section 3: Gallery
+### The Spectrum of Public Events
 
-### Gallery Title
+New York City pulsates with an array of public events, ranging from the iconic Macy’s Thanksgiving Parade to grassroots street fairs in neighborhood squares. These gatherings serve as cultural touchstones, uniting residents and visitors alike in shared experiences that reflect the city’s diversity and dynamism.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et suscipit risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ut volutpat metus. Nam lacinia elit quis nisi volutpat, non ultricies dolor ultricies.
+### Arrest Trends and Patterns
 
-### Gallery Embed
+Behind the headlines and crime reports lie patterns within arrest data that offer insights into law enforcement activity across the city. By analyzing arrest rates, demographics, and crime trends, we uncover the underlying dynamics shaping NYC’s public safety landscape.
 
-<iframe src="https://www.example.com/gallery" width="100%" height="500px"></iframe>
+### Arrests and Events
+Within the realm of public events, arrests represent a nuanced intersection of celebration and security. From minor infractions to more serious offenses, arrests at events underscore the challenges faced by law enforcement in balancing public order with the preservation of civil liberties.
 
-## Section 4: About
+<iframe src="heatmap.html" width="100%" height="500px"></iframe>
 
-### About Us
+## A Glimpse Behind the Numbers: Real People, Real Impact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et suscipit risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ut volutpat metus. Nam lacinia elit quis nisi volutpat, non ultricies dolor ultricies.
+Beyond the statistics, real lives are impacted by arrests and events in NYC. In this section, we share the stories of individuals whose lives have been forever changed by encounters with law enforcement at public gatherings. Through their voices, we gain a deeper understanding of the human toll behind the data points.
+
+## Conclusion
+
+As we conclude our data-driven journey through NYC’s arrests and events, we acknowledge the intricate web of factors that shape public safety in our city. While our analysis may not have revealed a direct correlation between events and arrests, it has provided valuable insights into the broader landscape of law enforcement activity.
+
+Through the lens of data, we have uncovered patterns and trends within arrest data, offering a deeper understanding of the dynamics at play in our city streets. From demographic disparities to shifts in crime rates, these insights serve as a foundation for informed decision-making and targeted interventions aimed at enhancing public safety.
+
+While arrests at events represent a focal point of our analysis, they are but one piece of the puzzle. By examining the spectrum of public gatherings and discerning patterns within arrest data, we gain a more holistic view of the challenges and opportunities facing our communities.
 
