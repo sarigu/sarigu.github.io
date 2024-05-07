@@ -124,7 +124,7 @@ Behind the headlines and crime reports lie patterns within arrest data that offe
 </figure>
 
 <figure class="figure">
-    <iframe src="/assets/embeds/event_counts_map" width="100%" height="650px"></iframe>
+    <iframe src="/assets/embeds/arrest_counts_map" width="100%" height="650px"></iframe>
     <figcaption class="figcaption">Figure 6: Interactive map of arrests per neighborhood
   </figcaption>
 </figure>
