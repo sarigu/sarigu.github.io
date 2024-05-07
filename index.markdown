@@ -103,7 +103,7 @@ New York City pulsates with an array of public events, ranging from block partie
 
 <figure class="figure">
     <iframe src="/assets/embeds/event_count_by_type_and_borough.html" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 3: Number of events by type and neighborhood
+    <figcaption class="figcaption">Figure 3: Interactive graph that illustrates number of events by type and neighborhood
   </figcaption>
 </figure>
 
@@ -119,20 +119,49 @@ Behind the headlines and crime reports lie patterns within arrest data that offe
 
 <figure class="figure">
     <iframe src="/assets/embeds/arrest_count_by_offense_and_borough" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 5: Number of arrests by offense and neighborhood
+    <figcaption class="figcaption">Figure 5: Interactive graph that shows number of arrests by offense and neighborhood
   </figcaption>
 </figure>
 
 <figure class="figure">
     <iframe src="/assets/embeds/arrest_count_by_age_and_borough" width="100%" height="550px"></iframe>
-    <figcaption class="figcaption">Figure 5: Number of arrests by age and neighborhood
+    <figcaption class="figcaption">Figure 6: Interactive graph that illustrates number of arrests by age and neighborhood
   </figcaption>
 </figure>
 
 ### Arrests and Events
 Within the realm of public events, arrests represent a nuanced intersection of celebration and security. From minor infractions to more serious offenses, arrests at events underscore the challenges faced by law enforcement in balancing public order with the preservation of civil liberties.
 
-<iframe src="/assets/embeds/heatmap.html" width="100%" height="500px"></iframe>
+<figure class="figure">
+    <iframe src="/assets/embeds/correlation_analysis_borough_event_arrest" width="100%" height="650px"></iframe>
+    <figcaption class="figcaption">Figure 7: Interactive map to explore correlation between arrests and event types per neighborhood
+  </figcaption>
+</figure>
+
+<figure class="figure">
+    <iframe src="/assets/embeds/correlation_event_arrest_borough" width="100%" height="650px"></iframe>
+    <figcaption class="figcaption">Figure 8: Interactive map to explore correlation between event type and arrest count by neighborhood
+  </figcaption>
+</figure>
+
+<figure class="figure">
+    <iframe src="/assets/embeds/correlation_events_arrest_rate" width="100%" height="650px"></iframe>
+    <figcaption class="figcaption">Figure 9: Interactive map to explore correlation between event type and arrest count by neighborhood
+  </figcaption>
+</figure>
+
+<figure class="figure">
+    <iframe src="/assets/embeds/correlation_temporal_analysis" width="100%" height="400px"></iframe>
+    <figcaption class="figcaption">Figure 10: Interactive temporal analysis of events and arrests
+  </figcaption>
+</figure>
+
+
+<figure class="figure">
+    <iframe src="/assets/embeds/map_output" width="100%" height="650px"></iframe>
+    <figcaption class="figcaption">Figure 11: Interactive heatmap with event locations and arrest count per location
+  </figcaption>
+</figure>
 
 ## Conclusion
 
