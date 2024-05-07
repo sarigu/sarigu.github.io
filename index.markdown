@@ -15,20 +15,62 @@ body{
 .page-heading{
     display: none;
 }
+
+iframe{
+    border: none;
+}
+
+.site-header, .site-footer{
+    background-color:black;
+    border: none;
+}
+
+.site-header * , .site-footer *, .site-title {
+    color: white;
+}
+
+.site-title{
+    color: white !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.figure img{
+    border-radius: 20px;
+}
+
+.figcaption{
+    padding: 10px 0px 0px 20px;
+}
 </style>
 
 
 # Behind the Numbers: A Data-Driven Journey Through NYC's Arrests and Events
 
-In the bustling metropolis of New York City, a rich tapestry of events unfolds daily, from cultural festivals to sporting spectacles. Yet, beneath the surface of these vibrant gatherings lies a complex interplay between celebration and law enforcement. Join us on a data-driven exploration as we delve into the heart of NYC’s arrests and events, uncovering the stories behind the statistics and shedding light on the human experiences that shape our city.
+<figure class="figure">
+    <img src="/assets/images/new-york-city.jpg" width="100%" height="auto"/>
+    <figcaption class="figcaption">Image source: <a href="https://unsplash.com/de/@hannahbusing?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hannah Busing</a> auf <a href="https://unsplash.com/de/fotos/luftbild-von-stadtischen-gebauden-0V6DmTuJaIk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+  </figcaption>
+</figure>
+
+In the bustling metropolis of New York City, a rich tapestry of events unfolds daily, from cultural festivals to sporting spectacles. Yet, beneath the surface of these vibrant gatherings lies a complex interplay between celebration and law enforcement. Join us on a data-driven exploration as we delve into the heart of NYC’s arrests and events.
+
+## A Glimpse Behind the Numbers: Real People, Real Impact
+
+Before we embark on our data-driven exploration, let's take a moment to hear the stories of individuals whose lives have intersected with law enforcement at public gatherings. From impassioned protests to peaceful demonstrations, these encounters offer a glimpse into the human impact of arrests in our city.
+
+One recent example is the incident at Columbia University, where police cleared a building and arrested dozens of protesters. According to reports from The New York Times, tensions flared as demonstrators voiced their opposition to university policies, leading to a standoff with law enforcement. As arrests were made and individuals were escorted from the premises, emotions ran high, underscoring the intensity and volatility of such encounters. [See the full NY Times article](https://www.nytimes.com/live/2024/04/30/nyregion/columbia-protests-college).
+
+As we listen to the voices of those directly affected by these events, we're reminded of the complex dynamics at play and the profound consequences that can result from interactions between people and law enforcement.
 
 ## The Data Landscape
 
-In this section, we navigate the intricate terrain of NYC’s arrests and events, examining the spectrum of public gatherings and discerning trends within arrest data.
+Now, let's shift our focus to the broader data landscape of NYC's arrests and events. While political protests may capture headlines and public attention, what if we broaden our lens to examine other types of gatherings? Could events like farmers markets or street festivals also impact arrest rates? Let's explore the spectrum of public events and discern trends within arrest data to gain a comprehensive understanding of law enforcement activity in our city.
 
 ### The Spectrum of Public Events
 
-New York City pulsates with an array of public events, ranging from the iconic Macy’s Thanksgiving Parade to grassroots street fairs in neighborhood squares. These gatherings serve as cultural touchstones, uniting residents and visitors alike in shared experiences that reflect the city’s diversity and dynamism.
+New York City pulsates with an array of public events, ranging from block parties to farmers markets in neighborhood squares. These gatherings serve as cultural touchstones, uniting residents and visitors alike in shared experiences that reflect the city’s diversity and dynamism.
 
 ### Arrest Trends and Patterns
 
@@ -38,10 +80,6 @@ Behind the headlines and crime reports lie patterns within arrest data that offe
 Within the realm of public events, arrests represent a nuanced intersection of celebration and security. From minor infractions to more serious offenses, arrests at events underscore the challenges faced by law enforcement in balancing public order with the preservation of civil liberties.
 
 <iframe src="heatmap.html" width="100%" height="500px"></iframe>
-
-## A Glimpse Behind the Numbers: Real People, Real Impact
-
-Beyond the statistics, real lives are impacted by arrests and events in NYC. In this section, we share the stories of individuals whose lives have been forever changed by encounters with law enforcement at public gatherings. Through their voices, we gain a deeper understanding of the human toll behind the data points.
 
 ## Conclusion
 
