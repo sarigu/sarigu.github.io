@@ -6,42 +6,54 @@ layout: home
 ---
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-body{
-    font-family: "Rubik", sans-serif;
-}
+    body{
+        font-family: "Rubik", sans-serif;
+    }
 
-.page-heading{
-    display: none;
-}
+    .page-heading{
+        display: none;
+    }
 
-iframe{
-    border: none;
-}
+    iframe{
+        border: none;
+    }
 
-.site-header, .site-footer{
-    background-color:black;
-    border: none;
-}
+    .site-header, .site-footer{
+        background-color:black;
+        border: none;
+    }
 
-.site-header * , .site-footer *, .site-title {
-    color: white;
-}
+    .site-header * , .site-footer *, .site-title {
+        color: white;
+    }
 
-.site-title{
-    color: white !important;
-    font-weight: 500;
-    font-size: 20px;
-}
+    .site-title{
+        color: white !important;
+        font-weight: 500;
+        font-size: 20px;
+    }
 
-.figure img{
-    border-radius: 20px;
-}
+    .figure img{
+        border-radius: 20px;
+    }
 
-.figcaption{
-    padding: 10px 0px 0px 20px;
-}
+    .figcaption{
+        padding: 10px 0px 0px 20px;
+        font-style: italic;
+    }
+
+    .split-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .split-container .figure, .split-container p {
+        width: 50%;
+    }
 </style>
 
 
@@ -50,7 +62,6 @@ iframe{
 <figure class="figure">
     <img src="/assets/images/new-york-city.jpg" width="100%" height="auto"/>
     <figcaption class="figcaption">Image source: <a href="https://unsplash.com/de/@hannahbusing?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hannah Busing</a> auf <a href="https://unsplash.com/de/fotos/luftbild-von-stadtischen-gebauden-0V6DmTuJaIk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
   </figcaption>
 </figure>
 
@@ -64,13 +75,37 @@ One recent example is the incident at Columbia University, where police cleared 
 
 As we listen to the voices of those directly affected by these events, we're reminded of the complex dynamics at play and the profound consequences that can result from interactions between people and law enforcement.
 
-## The Data Landscape
+## The Data Landscape (04.01.2008 until 31.12.2023)
 
 Now, let's shift our focus to the broader data landscape of NYC's arrests and events. While political protests may capture headlines and public attention, what if we broaden our lens to examine other types of gatherings? Could events like farmers markets or street festivals also impact arrest rates? Let's explore the spectrum of public events and discern trends within arrest data to gain a comprehensive understanding of law enforcement activity in our city.
 
 ### The Spectrum of Public Events
 
 New York City pulsates with an array of public events, ranging from block parties to farmers markets in neighborhood squares. These gatherings serve as cultural touchstones, uniting residents and visitors alike in shared experiences that reflect the city’s diversity and dynamism.
+
+#### Events over time
+
+<figure class="figure">
+   <img src="/assets/images/distribution_events_over_time.png" width="100%" height="auto"/>
+    <figcaption class="figcaption">Figure 1: Distribution of events over time
+  </figcaption>
+</figure>
+
+<div class="split-container">
+    <figure class="figure">
+        <img src="/assets/images/seasonal_pattern_events.png" width="100%" height="auto">
+        <figcaption class="figcaption">Figure 2: Seasonal pattern of events</figcaption>
+    </figure>
+    <p>Until 2022, the number of events in NYC had been steadily increasing year over year. However, the emergence of the COVID-19 pandemic in 2020 resulted in widespread cancellations and restrictions, leading to a significant decrease in events during that period. Although some events resumed as restrictions eased, the overall number remained lower than pre-pandemic levels. In 2023, the number of events experienced a further drop, reflecting ongoing concerns and uncertainties surrounding public gatherings. <br><br> Public gatherings often exhibit seasonal patterns, with an increase in events during the summer months and fewer events during the winter.</p>
+</div>
+
+#### Events by neighborhood and type
+
+<figure class="figure">
+    <iframe src="/assets/embeds/event_count_by_type_and_borough.html" width="100%" height="650px"></iframe>
+    <figcaption class="figcaption">Figure 3: Number of events by type and neighborhood
+  </figcaption>
+</figure>
 
 ### Arrest Trends and Patterns
 
@@ -79,7 +114,7 @@ Behind the headlines and crime reports lie patterns within arrest data that offe
 ### Arrests and Events
 Within the realm of public events, arrests represent a nuanced intersection of celebration and security. From minor infractions to more serious offenses, arrests at events underscore the challenges faced by law enforcement in balancing public order with the preservation of civil liberties.
 
-<iframe src="heatmap.html" width="100%" height="500px"></iframe>
+<iframe src="/assets/embeds/heatmap.html" width="100%" height="500px"></iframe>
 
 ## Conclusion
 
