@@ -15,7 +15,7 @@ layout: home
     }
 
     .wrapper{
-      max-width: 1000px;
+      max-width: 900px;
     }
 
     .page-heading{
@@ -72,7 +72,6 @@ layout: home
 
     .split-container {
         display: flex;
-        align-items: center;
         justify-content: center;
         gap: 20px;
     }
@@ -98,7 +97,7 @@ layout: home
 # Behind the numbers: A data-driven journey through NYC's arrests and events
 
 <figure class="figure">
-    <img src="/assets/images/new-york-city.jpg" width="100%" height="auto" class="hero-image"/>
+    <img src="/assets/images/new-york-city.jpg" width="90%" height="auto" class="hero-image"/>
     <figcaption class="figcaption">Image source: <a href="https://unsplash.com/de/@hannahbusing?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hannah Busing</a> auf <a href="https://unsplash.com/de/fotos/luftbild-von-stadtischen-gebauden-0V6DmTuJaIk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   </figcaption>
 </figure>
@@ -111,11 +110,18 @@ Before diving into our data-driven exploration, let’s pause to explore the exp
 
 > At Columbia University in Manhattan, a recent incident unfolded where police officers in riot gear detained over 100 students engaged in a non-violent demonstration in solidarity with Palestine. The protest involved camping students advocating for their universities to support a ceasefire in Gaza and divest from companies with ties to Israel. Columbia University called upon law enforcement for the second time following the vandalism and blockade of Hamilton Hall. Emotions ran high during the arrests, highlighting the intensity of the situation. Furthermore, the incident sparked subsequent protests against the university president's decision to involve the police in the pro-Palestinian encampment demonstration. [See the full The Guardian article](https://www.theguardian.com/us-news/2024/apr/22/columbia-university-protests-shutdown).
 
-As we listen to the narratives of those directly involved in these incidents, we are remindedn of the complexities at play and the profound effects of interactions between individuals and law enforcement.
+As we listen to the narratives of those directly involved in these incidents, we are reminded of the complexities at play and the profound effects of interactions between individuals and law enforcement.
 
-## The data landscape (04.01.2008 until 31.12.2023)
+## The data landscape
 
-Now, let's shift our focus to the broader data landscape of NYC's arrests and events. While political protests may capture headlines and public attention, what if we broaden our lens to examine other types of gatherings? Could events like farmers markets or street festivals also impact arrest rates? Let's explore the spectrum of public events and discern trends within arrest data to gain a comprehensive understanding of law enforcement activity in our city.
+Now, let's shift our focus to the broader data landscape of NYC's arrests and events. While political protests may capture headlines and public attention, what if we broaden our lens to examine other types of gatherings? Could events like farmers markets or street festivals also impact arrest rates? Let's explore the spectrum of public events and discern trends within arrest data to gain a comprehensive understanding of law enforcement activity in New York.
+
+**Key information:**
+
+* 📍 We look at **New York City**
+* 🗓️ We look at arrests and events between **04.01.2008 and 31.12.2023**
+* 👮 We look at **4916215** arrests
+* 🥬 We look at **127524** events
 
 ### Understanding NYC events: Trends and patterns
 
@@ -124,17 +130,23 @@ New York City hosts an array of public events, ranging from block parties to far
 #### Events over time
 
 <figure class="figure">
-   <img src="/assets/images/distribution_events_over_time.png" width="80%" height="auto"/>
+   <img src="/assets/images/distribution_events_over_time.png" width="90%" height="auto"/>
     <figcaption class="figcaption">Figure 1: Distribution of events over time
   </figcaption>
 </figure>
 
+Until 2022, the number of events in NYC had been steadily increasing year over year. However, the emergence of the COVID-19 pandemic in 2020 resulted in widespread cancellations and restrictions, leading to a significant decrease in events during that period. Although some events resumed as restrictions eased, the overall number remained lower than pre-pandemic levels. In 2023, the number of events experienced a further drop, reflecting ongoing concerns and uncertainties surrounding public gatherings.
+
+Public gatherings often exhibit seasonal patterns, with an increase in events during the summer months and fewer events during the winter.
+
 <div class="split-container">
     <figure class="figure">
-        <img src="/assets/images/seasonal_pattern_events.png" width="100%" height="auto">
+        <img src="/assets/images/seasonal_pattern_events_1.png" width="100%" height="auto">
         <figcaption class="figcaption">Figure 2: Seasonal pattern of events</figcaption>
     </figure>
-    <p>Until 2022, the number of events in NYC had been steadily increasing year over year. However, the emergence of the COVID-19 pandemic in 2020 resulted in widespread cancellations and restrictions, leading to a significant decrease in events during that period. Although some events resumed as restrictions eased, the overall number remained lower than pre-pandemic levels. In 2023, the number of events experienced a further drop, reflecting ongoing concerns and uncertainties surrounding public gatherings. <br><br> Public gatherings often exhibit seasonal patterns, with an increase in events during the summer months and fewer events during the winter.</p>
+      <figure class="figure">
+        <img src="/assets/images/seasonal_pattern_events_2.png" width="100%" height="auto">
+    </figure>
 </div>
 
 #### Events by neighborhood and type
@@ -156,17 +168,21 @@ As mentioned earlier, there are a big variety of events, but how does the distri
 Behind the headlines and crime reports lie patterns within arrest data that offer insights into law enforcement activity across the city. By analyzing arrest rates, demographics, and crime trends, we uncover the underlying dynamics shaping NYC’s public safety landscape.
 
 <figure class="figure">
-   <img src="/assets/images/arrests_over_time.png" width="80%" height="auto"/>
+   <img src="/assets/images/arrests_over_time.png" width=100%" height="auto"/>
     <figcaption class="figcaption">Figure 5: Arrests over time
   </figcaption>
 </figure>
 
+Contrary to the trend observed with events, the number of arrests in NYC had been steadily decreasing. However, the advent of COVID-19 resulted in a notable reduction in arrests. Subsequently, as law enforcement adapted to new challenges and priorities, arrests began to slowly increase, although they generally remained at a lower level compared to pre-COVID times.
+
 <div class="split-container">
     <figure class="figure">
-        <img src="/assets/images/seasonal_pattern_arrests.png" width="100%" height="auto">
+        <img src="/assets/images/seasonal_pattern_arrests_1.png" width="100%" height="auto">
         <figcaption class="figcaption">Figure 6: Seasonal pattern of arrests</figcaption>
     </figure>
-    <p>Contrary to the trend observed with events, the number of arrests in NYC had been steadily decreasing. However, the advent of COVID-19 resulted in a notable reduction in arrests. Subsequently, as law enforcement adapted to new challenges and priorities, arrests began to slowly increase, although they generally remained at a lower level compared to pre-COVID times.</p>
+     <figure class="figure">
+        <img src="/assets/images/seasonal_pattern_arrests_2.png" width="100%" height="auto">
+    </figure>
 </div>
 
 Remember earlier when we looked at the boroughs and the events that has occurred within? Manhattan was the borough that hosts the most events, but how about the arrests that has occurred throughout the city? Can we expect there to be more or less arrests following events? Figure 6 shows a map of New York again, but here we can take away that it is actually Brooklyn that has the most arrests registered for the time period, despite not being the borough with the most events.
