@@ -134,7 +134,7 @@ New York City pulsates with an array of public events, ranging from block partie
 </figure>
 
 <figure class="figure">
-    <iframe src="/assets/embeds/event_count_by_type_and_borough" width="100%" height="650px"></iframe>
+    <iframe src="/assets/embeds/events_by_type_borough" width="100%" height="650px"></iframe>
     <figcaption class="figcaption">Figure 4: Interactive graph that illustrates number of events by type and neighborhood
   </figcaption>
 </figure>
@@ -156,13 +156,13 @@ Behind the headlines and crime reports lie patterns within arrest data that offe
 </figure>
 
 <figure class="figure">
-    <iframe src="/assets/embeds/arrest_count_by_offense_and_borough" width="100%" height="650px"></iframe>
+    <iframe src="/assets/embeds/arrests_by_offense_borough" width="100%" height="650px"></iframe>
     <figcaption class="figcaption">Figure 7: Interactive graph that shows number of arrests by offense and neighborhood
   </figcaption>
 </figure>
 
 <figure class="figure">
-    <iframe src="/assets/embeds/arrest_count_by_age_and_borough" width="100%" height="550px"></iframe>
+    <iframe src="/assets/embeds/arrests_by_age_borough" width="100%" height="550px"></iframe>
     <figcaption class="figcaption">Figure 8: Interactive graph that illustrates number of arrests by age and neighborhood
   </figcaption>
 </figure>
