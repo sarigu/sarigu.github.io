@@ -80,6 +80,18 @@ layout: home
     .split-container .figure, .split-container p {
         width: 50%;
     }
+
+      blockquote{
+        font-style: normal;
+        font-size: 16px;
+        color: #272727;
+        border-radius: 5px;
+        padding: 10px;
+        border-left: 4px solid #b3b3b3;
+        background-color: #e6e6e6;
+        letter-spacing: 0.6px;
+    }
+
 </style>
 
 
@@ -95,11 +107,11 @@ In the bustling city of New York, a rich mix of events unfolds daily, from cultu
 
 ## A glimpse behind the numbers: Real people, real impact
 
-Before we embark on our data-driven exploration, let's take a moment to the narratives of individuals whose lives have intersected with law enforcement amid public gatherings. From impassioned protests to peaceful demonstrations, these encounters offer a window into the human impact of arrests in our city.
+Before diving into our data-driven exploration, let’s pause to explore the experiences of individuals whose lives have intersected with law enforcement during public gatherings. These encounters serve as  windows into the human impact of arrests in our cities, particularly among politically charged events like below.
 
-One recent example is the incident at Columbia University, where police cleared a building and arrested dozens of protesters. According to reports from The New York Times, tensions built up as demonstrators voiced their opposition to university policies, leading to a standoff with law enforcement. As arrests were made and individuals were escorted from the premises, emotions ran high, underscoring the intensity and volatility of such encounters. [See the full NY Times article](https://www.nytimes.com/live/2024/04/30/nyregion/columbia-protests-college).
+> At Columbia University in Manhattan, a recent incident unfolded where police officers in riot gear detained over 100 students engaged in a non-violent demonstration in solidarity with Palestine. The protest involved camping students advocating for their universities to support a ceasefire in Gaza and divest from companies with ties to Israel. Columbia University called upon law enforcement for the second time following the vandalism and blockade of Hamilton Hall. Emotions ran high during the arrests, highlighting the intensity of the situation. Furthermore, the incident sparked subsequent protests against the university president's decision to involve the police in the pro-Palestinian encampment demonstration. [See the full The Guardian article](https://www.theguardian.com/us-news/2024/apr/22/columbia-university-protests-shutdown).
 
-In listening to the accounts of those directly involved in these events, we're faced with the complexities at play and the significant impact of interactions between individuals and law enforcement. These personal stories highlight the nuanced nature of public gatherings and underscore the importance of understanding the human experiences within the context of arrests in our city.
+As we listen to the narratives of those directly involved in these incidents, we are remindedn of the complexities at play and the profound effects of interactions between individuals and law enforcement.
 
 ## The data landscape (04.01.2008 until 31.12.2023)
 

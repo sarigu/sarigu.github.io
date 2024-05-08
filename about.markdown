@@ -64,7 +64,7 @@ permalink: /about/
         font-size: 16px;
         color: #272727;
         border-radius: 5px;
-        padding: 10px;
+        padding: 5px;
         border-left: 4px solid #b3b3b3;
         background-color: #e6e6e6;
         letter-spacing: 0.6px;
@@ -76,7 +76,7 @@ permalink: /about/
 
     blockquote > h4{
         padding: 0px;
-        margin: 0px;
+        margin: 0px 0px 2px 0px;
         font-size: 18px !important;
         font-weight: 500;
     }
