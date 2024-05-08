@@ -137,7 +137,7 @@
 
 <h3 id="understanding-nyc-events-trends-and-patterns">Understanding NYC Events: Trends and Patterns</h3>
 
-<p>New York City pulsates with an array of public events, ranging from block parties to farmers markets in neighborhood squares. These gatherings serve as cultural touchstones, uniting residents and visitors alike in shared experiences that reflect the city’s diversity and dynamism.</p>
+<p>New York City pulsates with an array of public events, ranging from block parties to farmers markets in neighborhood squares. These gatherings serve as cultural touchstones, uniting residents and visitors alike in shared experiences that reflect the city’s diversity and dynamism. As the years have gone by, the citizens of New York have become more active in the community which can be seen from the rise of overall events during this period in time, as witnessed in Figure 1.</p>
 
 <h4 id="events-over-time">Events over time</h4>
 
@@ -156,13 +156,13 @@
 </div>
 
 <h4 id="events-by-neighborhood-and-type">Events by neighborhood and type</h4>
-
+<p>Many people are probably familiar with the names such as “Manhattan”, “Brooklyn” and “Queens”. These names arent just arbritrary areas in New York but actually map out a five-split city. From Figure 3 it can be seen how these different boroughs are related to the events that are being held in the city. Manhattan is the most popular for events, and Staten Island has a marginal amount of the total amount of events throughout all of New York during this time period.</p>
 <figure class="figure">
     <iframe src="/assets/embeds/event_counts_map" width="100%" height="650px"></iframe>
     <figcaption class="figcaption">Figure 3: Interactive map of events per neighborhood
   </figcaption>
 </figure>
-
+<p>As mentioned earlier, there are a big variety of events, but how does the distribution look between these categories of events and the boroughs? This can be interactively investigated in Figure 4. Here you can zoom in by brushing over the plot, and visualize the peaks for the select event types, or the lack hereof! Across the plot, it seems that Manhattan has a tendency to be the leading borough for most types of events. But for the event type of <a href="https://en.wikipedia.org/wiki/Block_party">Block Party</a>, it’s actually clearly Brooklyn that hosts the majority.</p>
 <figure class="figure">
     <iframe src="/assets/embeds/events_by_type_borough" width="100%" height="650px"></iframe>
     <figcaption class="figcaption">Figure 4: Interactive graph that illustrates number of events by type and neighborhood
@@ -187,11 +187,14 @@
     <p>Until 2022,</p>
 </div>
 
+<p>Remember earlier when we looked at the boroughs and the events that has occurred within? Manhattan was the borough that hosts the most events, but how about the arrests that has occurred throughout the city? Can we expect there to be more or less arrests following events? Figure 6 shows a map of New York again, but here we can take away that it is actually Brooklyn that has the most arrests registered for the time period, despite not being the borough with the most events.</p>
 <figure class="figure">
     <iframe src="/assets/embeds/arrest_counts_map" width="100%" height="650px"></iframe>
     <figcaption class="figcaption">Figure 6: Interactive map of arrests per neighborhood
   </figcaption>
 </figure>
+
+<p>By being more curious as to what sort of felonies or misdemeneanors we inspect Figure 7. One example of a takeaway from this figure is that the types of crimes people have been arrested for the most, in Manhatten, are all related to Larceny / Theft. This begs further questions such as if this type of crime is more prevalent in upper state neighborhoods in general.</p>
 
 <figure class="figure">
     <iframe src="/assets/embeds/arrests_by_offense_borough" width="100%" height="650px"></iframe>
@@ -199,6 +202,7 @@
   </figcaption>
 </figure>
 
+<p>The data that this investigation is based upon holds more information that can be utilized. It is not necessarily information that proves important to the questions that you might have, but how would you know, if you didnt know that the information was there to begin with? For each arrest, the age group of the arrested individual is listed. Figure 8 shows that the distribution of individuals being arrested for crimes is somewhat identical throughout all of New York. Further analysis on this topic could perhaps show what sorts of crime that the different age groups are most likely to commit (be arrested for), and in the long run, which events these individuals in the specific age categories are attracted to.</p>
 <figure class="figure">
     <iframe src="/assets/embeds/arrests_by_age_borough" width="100%" height="550px"></iframe>
     <figcaption class="figcaption">Figure 8: Interactive graph that illustrates number of arrests by age and neighborhood
@@ -206,32 +210,35 @@
 </figure>
 
 <h3 id="intersecting-data-exploring-the-relationship-between-events-and-arrests">Intersecting Data: Exploring the Relationship Between Events and Arrests</h3>
-<p>Within the realm of public events, arrests represent a nuanced intersection of celebration and security. From minor infractions to more serious offenses, arrests at events underscore the challenges faced by law enforcement in balancing public order with the preservation of civil liberties.</p>
+<p>Within the realm of public events, arrests represent a nuanced intersection of celebration and security. From minor infractions to more serious offenses, arrests at events underscore the challenges faced by law enforcement in balancing public order with the preservation of civil liberties. As an extension to earlier mentioned temporal analyses, Figure 9 shows simply the trends of the arrests and the events side by side. For the monthly view, events seem more prevalent in the summer and autumn months, whereas there seem to be less arrests, and potentially less crime in the winter months. As the yearly view would show, both events and arrests have diminished during the periods of COVID-19.</p>
 
 <figure class="figure">
+    <iframe src="/assets/embeds/correlation_temporal_analysis" width="100%" height="400px"></iframe>
+    <figcaption class="figcaption">Figure 9: Interactive temporal analysis of events and arrests
+  </figcaption>
+</figure>
+
+<p>The motivation for doing this investigation has been to shed some light on the relation between events and the crimes commited in the same area on the same days. The ideal findings would also include if crime would increase in the days after an event, perchance because the crime was lessened during the event itself. Figures 10 and 11 try to put some numbers on this, by looking at the correlation between an event on a given day for a borough, and the crimes committed in this borough. These areas are rather large, and thus the relationsships concluded from these figures needs to be further worked upon to truly have a saying in itself. A positive correlation would suggest that as the number of permitted events increases in a particular location, there tends to be an increase in crime rates in that location over time. On the other hand, a negative correlation would suggest that as the number of permitted events increases, crime rates tend to decrease. Together with the correlation values, is also displayed the actual count of events and or arrests, such that you the beholder can take those into account when thinking critically of the correlation values, and not be swayed by high correlation on very few incidents. (We at DTU are observant of statistical importance!).</p>
+<figure class="figure">
     <iframe src="/assets/embeds/correlation_analysis_borough_event_arrest" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 9: Interactive map to explore correlation between arrests and event types per neighborhood
+    <figcaption class="figcaption">Figure 10: Interactive map to explore correlation between arrests and event types per neighborhood
   </figcaption>
 </figure>
 
 <figure class="figure">
     <iframe src="/assets/embeds/correlation_event_arrest_borough" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 10: Interactive map to explore correlation between event type and arrest count by neighborhood
+    <figcaption class="figcaption">Figure 11: Interactive map to explore correlation between event type and arrest count by neighborhood
   </figcaption>
 </figure>
 
+<p>Earlier we looked at the maps showcasing the total number of events and the total number of arrests across the different boroughs in New York City. We aired the idea that perhaps, because Manhattan hosts a proportionally large amount of events, it would also be impacted by more crime. Across the different boroughs however, we find it important to visually show that the correlations on this matter are marginal as can be seen from Figure 12.</p>
 <figure class="figure">
     <iframe src="/assets/embeds/correlation_events_arrest_rate" width="100%" height="650px"></iframe>
-    <figcaption class="figcaption">Figure 11: Interactive map to explore correlation between event counts and arrest count by neighborhood
+    <figcaption class="figcaption">Figure 12: Interactive map to explore correlation between event counts and arrest count by neighborhood
   </figcaption>
 </figure>
 
-<figure class="figure">
-    <iframe src="/assets/embeds/correlation_temporal_analysis" width="100%" height="400px"></iframe>
-    <figcaption class="figcaption">Figure 12: Interactive temporal analysis of events and arrests
-  </figcaption>
-</figure>
-
+<p>ap visualizations are invaluable tools for understanding the complex interplay between arrests and events in New York City. By overlaying arrest data onto a map alongside event locations, these visualizations offer a perspective on the dynamics of the New Yorker Life life. They provide crucial insights into the spatial distribution of arrests in relation to various types of events. Map visualizations enhance transparency and accountability by allowing us to see firsthand how law enforcement activities intersect with community events. Figure 13 shows combined data from events and arrests to show side by side how arrests are distributed, using heatmaps, together with the events showcased as hoverable markers, for interactive investigation.</p>
 <figure class="figure">
     <iframe src="/assets/embeds/map_output" width="100%" height="650px"></iframe>
     <figcaption class="figcaption">Figure 13: Interactive heatmap with event locations and arrest count per location
