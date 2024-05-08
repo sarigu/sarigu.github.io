@@ -12,6 +12,10 @@ layout: home
         font-family: "Rubik", sans-serif;
     }
 
+    .wrapper{
+      max-width: 800px;
+    }
+
     .page-heading{
         display: none;
     }

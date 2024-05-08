@@ -11,6 +11,10 @@ permalink: /about/
         font-family: "Rubik", sans-serif;
     }
 
+    .wrapper{
+      max-width: 820px;
+    }
+
     .page-heading{
         display: none;
     }
@@ -39,4 +43,4 @@ permalink: /about/
     }
 </style>
 
-<iframe src="/assets/embeds/notebook_test" width="100%"></iframe>
+<iframe src="/assets/embeds/notebook" width="100%"></iframe>
