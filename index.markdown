@@ -105,7 +105,7 @@ As we listen to the voices of those directly affected by these events, we're rem
 
 Now, let's shift our focus to the broader data landscape of NYC's arrests and events. While political protests may capture headlines and public attention, what if we broaden our lens to examine other types of gatherings? Could events like farmers markets or street festivals also impact arrest rates? Let's explore the spectrum of public events and discern trends within arrest data to gain a comprehensive understanding of law enforcement activity in our city.
 
-### The Spectrum of Public Events
+### Understanding NYC Events: Trends and Patterns
 
 New York City pulsates with an array of public events, ranging from block parties to farmers markets in neighborhood squares. These gatherings serve as cultural touchstones, uniting residents and visitors alike in shared experiences that reflect the city’s diversity and dynamism.
 
@@ -139,7 +139,7 @@ New York City pulsates with an array of public events, ranging from block partie
   </figcaption>
 </figure>
 
-### Arrest Trends and Patterns
+### Analyzing Arrest Data: Insights
 
 Behind the headlines and crime reports lie patterns within arrest data that offer insights into law enforcement activity across the city. By analyzing arrest rates, demographics, and crime trends, we uncover the underlying dynamics shaping NYC’s public safety landscape.
 
@@ -148,6 +148,15 @@ Behind the headlines and crime reports lie patterns within arrest data that offe
     <figcaption class="figcaption">Figure 5: Arrests over time
   </figcaption>
 </figure>
+
+<div class="split-container">
+    <figure class="figure">
+        <img src="/assets/images/seasonal_pattern_arrests.png" width="100%" height="auto">
+        <figcaption class="figcaption">Figure 5: Seasonal pattern of arrests</figcaption>
+    </figure>
+    <p>Until 2022,</p>
+</div>
+
 
 <figure class="figure">
     <iframe src="/assets/embeds/arrest_counts_map" width="100%" height="650px"></iframe>
@@ -167,7 +176,7 @@ Behind the headlines and crime reports lie patterns within arrest data that offe
   </figcaption>
 </figure>
 
-### Arrests and Events
+### Intersecting Data: Exploring the Relationship Between Events and Arrests
 Within the realm of public events, arrests represent a nuanced intersection of celebration and security. From minor infractions to more serious offenses, arrests at events underscore the challenges faced by law enforcement in balancing public order with the preservation of civil liberties.
 
 <figure class="figure">
