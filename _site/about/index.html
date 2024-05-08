@@ -7,8 +7,8 @@
 <meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Notebook" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City." />
-<meta property="og:description" content="This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City." />
+<meta name="description" content="This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City. The project is by Anders and Sari." />
+<meta property="og:description" content="This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City. The project is by Anders and Sari." />
 <link rel="canonical" href="http://localhost:4000/about/" />
 <meta property="og:url" content="http://localhost:4000/about/" />
 <meta property="og:site_name" content="Events and arrests in NYC" />
@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Notebook" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City.","headline":"Notebook","name":"Events and arrests in NYC","url":"http://localhost:4000/about/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City. The project is by Anders and Sari.","headline":"Notebook","name":"Events and arrests in NYC","url":"http://localhost:4000/about/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Events and arrests in NYC" /></head>
 <body><header class="site-header" role="banner">
@@ -44,18 +44,30 @@
 
   <div class="post-content">
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
     body{
-        font-family: "Rubik", sans-serif;
+        font-family: "DM Sans", sans-serif;
+        color: #272626;
+        letter-spacing: 0.6px;
     }
 
     .wrapper{
-      max-width: 820px;
+      max-width: 800px;
     }
 
     .page-heading{
         display: none;
+    }
+    
+   h1, h2{
+      padding-top: 30px;
+      font-weight: 500 !important;
+    }
+
+    h3, h4, h5{
+       padding-top: 20px;
+       font-weight: 500 !important;
     }
 
     iframe{
@@ -63,8 +75,12 @@
     }
 
     .site-header, .site-footer{
-        background-color:black;
+        background-color: #272626;
         border: none;
+    }
+
+    .site-header{
+        padding: 10px;
     }
 
     .site-header * , .site-footer *, .site-title, .site-nav .page-link {
@@ -75,12 +91,43 @@
         color: white !important;
         font-weight: 500;
         font-size: 20px;
+        letter-spacing: 1px;
     }
 
     iframe{
         height:100vh;
     }
+
+    blockquote{
+        font-style: normal;
+        font-size: 16px;
+        color: #272727;
+        border-radius: 5px;
+        padding: 10px;
+        border-left: 4px solid #b3b3b3;
+        background-color: #e6e6e6;
+        letter-spacing: 0.6px;
+    }
+
+    blockquote > ul > li{
+        padding: 5px 0px;
+    }
+
+    blockquote > h4{
+        padding: 0px;
+        margin: 0px;
+        font-size: 18px !important;
+        font-weight: 500;
+    }
 </style>
+
+<blockquote>
+  <h4 id="ℹ️-datasets-used">ℹ️ Datasets used:</h4>
+  <ul>
+    <li>NYPD Arrests Data (Historic). <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Arrests-Data-Historic-/8h9b-rp9u/about_data">See full dataset here &gt;</a></li>
+    <li>NYC Permitted Event Information - Historical. <a href="https://data.cityofnewyork.us/City-Government/NYC-Permitted-Event-Information-Historical/bkfu-528j/about_data">See full dataset here &gt;</a></li>
+  </ul>
+</blockquote>
 
 <iframe src="/assets/embeds/notebook" width="100%"></iframe>
 
@@ -106,7 +153,7 @@
 </div>
 
       <div class="footer-col footer-col-3">
-        <p>This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City.</p>
+        <p>This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City. The project is by Anders and Sari.</p>
       </div>
     </div>
 

@@ -6,10 +6,12 @@ layout: home
 ---
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
     body{
-        font-family: "Rubik", sans-serif;
+      font-family: "DM Sans", sans-serif;
+      color: #272626;
+      letter-spacing: 0.6px;
     }
 
     .wrapper{
@@ -20,13 +22,27 @@ layout: home
         display: none;
     }
 
+    h1, h2{
+      padding-top: 30px;
+      font-weight: 500 !important;
+    }
+
+    h3, h4, h5{
+       padding-top: 20px;
+       font-weight: 500 !important;
+    }
+
     iframe{
         border: none;
     }
 
     .site-header, .site-footer{
-        background-color:black;
-        border: none;
+      background-color: #272626;
+      border: none;
+    }
+
+    .site-header{
+        padding: 10px;
     }
 
     .site-header * , .site-footer *, .site-title, .site-nav .page-link {
@@ -37,6 +53,7 @@ layout: home
         color: white !important;
         font-weight: 500;
         font-size: 20px;
+        letter-spacing: 1px;
     }
 
     .figure img{
@@ -44,8 +61,13 @@ layout: home
     }
 
     .figcaption{
-        padding: 10px 0px 0px 20px;
+        padding: 10px 0px 10px 20px;
         font-style: italic;
+    }
+
+    .hero-image{
+      height: 450px;
+      object-fit: cover;
     }
 
     .split-container {
@@ -64,7 +86,7 @@ layout: home
 # Behind the Numbers: A Data-Driven Journey Through NYC's Arrests and Events
 
 <figure class="figure">
-    <img src="/assets/images/new-york-city.jpg" width="100%" height="auto"/>
+    <img src="/assets/images/new-york-city.jpg" width="100%" height="auto" class="hero-image"/>
     <figcaption class="figcaption">Image source: <a href="https://unsplash.com/de/@hannahbusing?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hannah Busing</a> auf <a href="https://unsplash.com/de/fotos/luftbild-von-stadtischen-gebauden-0V6DmTuJaIk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   </figcaption>
 </figure>

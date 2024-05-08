@@ -20,7 +20,7 @@
 
 title: Events and arrests in NYC
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City.
+  This is the final project of the social data and visulisation course 2024. The project explores the connections between events and arrests in New York City. The project is by Anders and Sari.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
