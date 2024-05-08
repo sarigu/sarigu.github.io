@@ -14,7 +14,7 @@ permalink: /about/
     }
 
     .wrapper{
-      max-width: 800px;
+        max-width: 1000px;
     }
 
     .page-heading{
